@@ -1,0 +1,6 @@
+-buildpath: osgi.core,\
+	osgi.cmpn,\
+	junit.osgi,\
+	org.greenscape.organization;version=latest
+Bundle-Version: 0.1.0
+Export-Package: org.greenscape.organization.service
