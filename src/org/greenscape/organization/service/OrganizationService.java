@@ -6,14 +6,14 @@ import org.greenscape.organization.OrganizationEntity;
 
 public interface OrganizationService {
 
-	public OrganizationEntity findById(Object id);
+	OrganizationEntity findById(Object id);
 
-	public OrganizationEntity findByOrganizationId(long orgId);
+	OrganizationEntity findByOrganizationId(long orgId);
 
-	public Collection<OrganizationEntity> findAll();
+	Collection<OrganizationEntity> findAll();
 
-	public OrganizationEntity save(OrganizationEntity organizationModel);
+	OrganizationEntity save(OrganizationEntity organizationModel);
 
-	public void deleteByOrganizationId(long orgId);
+	void deleteByOrganizationId(long orgId);
 
 }
