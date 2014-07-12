@@ -2,6 +2,6 @@
 	osgi.cmpn,\
 	junit.osgi,\
 	org.greenscape.organization;version=latest
-Bundle-Version: 0.1.0
+Bundle-Version: 0.1.1
 Export-Package: org.greenscape.organization.service
 -sources: false
