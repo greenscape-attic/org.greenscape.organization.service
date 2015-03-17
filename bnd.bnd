@@ -1,7 +1,8 @@
--buildpath: osgi.core,\
-	osgi.cmpn,\
+-buildpath:  \
+	osgi.core,\
 	junit.osgi,\
 	org.greenscape.organization;version=latest
 Bundle-Version: 0.1.1
 Export-Package: org.greenscape.organization.service
--sources: false
+javac.source: 1.8
+javac.target: 1.8
